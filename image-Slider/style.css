@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #a284cf;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.slider {
+    width: 100%;
+    display: flex;
+    transition: 0.5s ease-in;
+}
+
+.slider .image {
+    height: 500px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    font-size: 40px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.arrow {
+    margin: 80px;
+}
+
+button:hover {
+    background-color: #E4B7A0;
+}
