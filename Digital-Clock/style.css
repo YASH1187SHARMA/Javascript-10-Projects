@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+.digital-Clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #273c75;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.digital-Clock{
+    height: 200px;
+    width: 600px;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 5rem;
+    font-weight: 700;
+    box-shadow: 0 5px 25px rgba(14, 21, 37, .8);
+    background-color: #353b48;
+}
+.right-side{
+    margin: 10px;
+}
+#Hours{
+    color: #0652DD;
+}
+#period{
+    font-size: 4.5rem;
+}
+#minutes{
+    color: #F79F1F;
+}
